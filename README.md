@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<h1>DashBoard</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
+  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+</p>
 
-## Available Scripts
+> Status do Projeto: :heavy_check_mark: (concluido)
 
-In the project directory, you can run:
+### Tópicos 
 
-### `npm start`
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
-### `npm test`
+## Descrição do projeto 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="justify">
+  Projeto feito com fins academicos, da materia PWFE (FrontEnd), com o objetivo de fazer um dashboard, onde utilamos o React como biblioteca de desenvolvimento.
+</p>
 
-### `npm run build`
+## Layout e Deploy da Aplicação :dash:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Link da aplicação: [DashBoard](https://whimsical-travesseiro-5f2077.netlify.app/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pré-requisitos
 
-### `npm run eject`
+:warning: [Node](https://nodejs.org/en/download/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como rodar a aplicação :arrow_forward:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fazer o download das pastas src e public do projeto, no terminal abra a pasta do projeto e execute os seguintes comandos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install 
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Rodar o projeto no servidor local
+Com a pasta do projeto aberta no terminal, execute o comando:
+```
+npm start
+```
 
-## Learn More
+## Tecnologia Usada
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.reactjs.org)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Desenvolvedores :octocat:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| [<img src="https://avatars.githubusercontent.com/u/91327153?v=4" width=115><br><sub>Vinicius Souza</sub>](https://github.com/Vinicius-Souza-Araujo) |  [<img src="https://avatars.githubusercontent.com/u/91341241?v=4" width=115><br><sub>Paula Barboza</sub>](https://github.com/Paula-Barboza) |  [<img src="https://avatars.githubusercontent.com/u/91340426?v=4" width=115><br><sub>Rafael Rossi</sub>](https://github.com/rafaellrossi) | [<img src="https://avatars.githubusercontent.com/u/88379213?v=4" width=115><br><sub>Pedro Bicas</sub>](https://github.com/PedroBicas) | [<img src="https://avatars.githubusercontent.com/u/91709564?v=4" width=115><br><sub>Rayane Campos</sub>](https://github.com/RayaneCamposs) |
+| :---: | :---: | :---: | :---: | :---: 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Licença 
 
-### Making a Progressive Web App
+The [MIT License]() (MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright :copyright: 2022 - CrazyDevs
