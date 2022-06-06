@@ -69,7 +69,7 @@ const Grafico = () => {
   }
 
   return (
-    <div className="shadow rounded bg-white p-4" style={{ height: 700 }}>
+    <div className="shadow rounded bg-white p-4" style={{ height: 800 }}>
       <div className="d-flex justify-content-between flex-wrap mb-5">
         <select defaultValue={moeda} onChange={(e) => { setMoeda(e.target.value) }}>
           <option value="USD-BRL">USD-BRL</option>
